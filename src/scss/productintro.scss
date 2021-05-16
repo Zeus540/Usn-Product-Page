@@ -1,0 +1,412 @@
+.productintro{
+  background: linear-gradient(270deg, #001689, #1e39c7);
+  padding:45px 190px;
+  justify-content: center;
+  color: white;
+  padding-bottom: 80px;
+  @media(min-width:0px) and (max-width:769px){
+    padding:45px 30px;
+    flex-direction: column!important;
+  }
+  @media(min-width:426px) and (max-width:769px){
+      padding:45px 45px;
+  }
+  @media(min-width:769px) and (max-width:1025px){
+    padding:45px 50px;
+  }
+  @media(min-width:1026px) and (max-width:1441px){
+    padding:45px 50px;
+  }
+}
+
+.info{
+  min-width: calc(100% / 3);
+  width: calc(100% / 3);
+  max-width: calc(100% / 3);
+  text-align: left;
+  padding-top: 40px;
+  line-height: 35px;
+  @media(min-width:0px) and (max-width:425px){
+    min-width: 100%;
+      width: 100%;
+      max-width: 100%;
+  }
+  @media(min-width:426px) and (max-width:769px){
+    padding-top: 10px;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+ 
+}
+@media(min-width:770px) and (max-width:1025px){
+  min-width: calc(100% / 2.5);
+  width: calc(100% / 2.5);
+  max-width: calc(100% / 2.5);
+}
+@media(min-width:1026px) and (max-width:1441px){
+  min-width: calc(100% / 2.5);
+  width: calc(100% / 2.5);
+  max-width: calc(100% / 2.5);
+}
+  h3{
+    font-size: 24px;
+    color: #0098d2;
+    @media(min-width:426px) and (max-width:769px){
+      font-size: 20px;
+      white-space: nowrap;
+  }
+  }
+  h2{
+    font-size: 35px;
+    padding-left: 3px;
+    @media(min-width:426px) and (max-width:769px){
+      font-size: 35px;
+  }
+  }
+  .keyinfo{
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "klavika-light";
+    margin-top: 30px;
+    margin-left: 10px;
+    @media(min-width:426px) and (max-width:769px){
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 30px;
+  }
+  @media(min-width:770px) and (max-width:1025px){
+    font-size: 16px;
+    line-height: 24px;
+  }
+  li{
+    align-items: flex-start;
+  }
+  }
+  .tags{
+    padding-left: 10px;
+    flex-flow: wrap;
+    width: 90%;
+    @media(min-width:0px) and (max-width:769px){
+      width: 100%;
+     }
+     
+  .tag{
+    background: #1129a6;
+    font-size: 12px;
+    font-family: "klavika-light";
+    margin-right: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    letter-spacing: 1.2px;
+    @media(min-width:770px) and (max-width:1025px){
+      font-size: 8px;
+     
+    }
+    p{padding: 0px 10px;}
+  }
+}
+  .checkicon{
+    padding-right: 15px;
+  }
+  .macroinfo{
+    border-radius: 5px;
+    border: 1px #1c4bf561 solid;
+    font-family:"klavika-medium";
+    font-size: 18px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    @media(min-width:0px) and (max-width:425px){
+      flex-direction: row!important;
+    
+     }
+    @media(min-width:426px) and (max-width:769px){
+   
+        font-size: 13px;
+        padding: 9px 0px;
+        width: 46%;
+        margin-right: 10px;
+    
+  }
+  @media(min-width:770px) and (max-width:1025px){
+    font-size: 13px;
+    
+  }
+    .units{
+      padding-right: 25px;
+      width: 75px;
+      text-align: right;
+      @media(min-width:426px) and (max-width:769px){
+        
+        width: 40px;
+    }
+    }
+  
+  }
+  .facts{
+    justify-content: space-between;
+    
+  }
+  .facticon1{
+    align-items: center;
+    @media(min-width:0px) and (max-width:769px){
+      flex-direction: row!important;
+     }
+    .exclamation{
+      padding: 0px 13px;
+      font-size: 15px;
+      @media(min-width:426px) and (max-width:769px){
+        padding: 0px 10px;
+    }
+    }
+  }
+  .facticon2{
+    padding-right: 30px;
+    font-size: 23px;
+    @media(min-width:426px) and (max-width:769px){
+      font-size: 10px;
+    padding-right: 6px;
+  }
+  }
+  .macroinfoholder{
+    margin-top: 20px;
+    cursor: pointer;
+    @media(min-width:426px) and (max-width:769px){
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+ 
+ 
+ 
+}
+}
+
+.product{
+  width: 100%;
+  @media(min-width:0px) and (max-width:769px){
+    padding-top: 20px;
+    img{
+      width: 100%;
+    }
+}
+  @media(min-width:426px) and (max-width:769px){
+    img{
+      width: 100%;
+      padding-top: 50px;
+    }
+}
+@media(min-width:769px) and (max-width:1025px){
+  align-self: center;
+  padding-top: 20px;
+  img{
+    width: 100%;
+  }
+}
+
+@media(min-width:1026px) and (max-width:1441px){
+  img{
+    width: 100%;
+  }
+}
+}
+.order{
+  min-width: calc(100% / 3);
+  width: calc(100% / 3);
+  max-width: calc(100% / 3);
+  font-family: 'klavika-medium';
+  padding-top: 95px;
+  @media(min-width:0px) and (max-width:425px){
+    min-width: 100%;
+      width: 100%;
+      max-width: 100%;
+      padding-top: 50px;
+  }
+  @media(min-width:426px) and (max-width:769px){
+    padding-top: 50px;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+@media(min-width:770px) and (max-width:1025px){
+  padding-top: 87px;
+}
+@media(min-width:770px) and (max-width:1025px){
+  padding-top: 20px;
+}
+  h2{
+    font-size: 37px;
+    width: 85%;
+    @media(min-width:0px) and (max-width:769px){
+        display: none;
+    }
+    @media(min-width:426px) and (max-width:769px){
+      font-size: 27px;
+      width: 100%;
+  }
+  @media(min-width:770px) and (max-width:1025px){
+    padding-top: 87px;
+    font-size: 27px;
+  }
+  @media(min-width:769px) and (max-width:1025px){
+    width: 100%;
+  }
+}
+  .priceReview{
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+    @media(min-width:0px) and (max-width:769px){
+      flex-direction: row;
+  }
+    .reviews{
+      font-size: 15px;
+      font-family: 'klavika-light';
+      .staravg{
+        font-size: 20px;
+      }
+    }
+  }
+  input,select{
+    background: #1129a6;
+    border: none;
+    width: 100%;
+    color: white;
+    margin-right: 10px!important;
+    padding: 15px;
+    font-family: 'klavika-medium';
+    filter: drop-shadow(0px 10px .95rem #030e4b);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+.orderDetails{
+  width: 75%;
+  @media(min-width:0px) and (max-width:769px){
+      width: 100%;
+  }
+  @media(min-width:426px) and (max-width:769px){
+    width: 100%;
+}
+@media(min-width:769px) and (max-width:1025px){
+  width: 100%;
+}
+}
+.price{
+  font-size: 50px;
+  @media(min-width:426px) and (max-width:769px){
+    font-size: 35px;
+ 
+}
+@media(min-width:769px) and (max-width:1025px){
+  font-size: 40px;
+}
+}
+
+.option{
+  background: #1129a6;
+  filter: drop-shadow(0px 10px .95rem #030e4b);
+  border-radius: 5px;
+  padding:15px 20px;
+  margin: 15px 10px 20px 0px;
+  cursor: pointer;
+  @media(min-width:0px) and (max-width:425px){
+    margin: 15px 15px 0px 0px;
+  }
+  @media(min-width:426px) and (max-width:769px){
+    margin: 15px 10px 0px 0px;
+}
+}
+
+#option3{
+  background: #01b6f4;
+}
+
+.placeorder{
+  background: #1129a6;
+  filter: drop-shadow(0px 10px .95rem #030e4b);
+    margin-top: 50px;
+    border-radius: 5px ;
+    justify-content: space-between;
+    @media(min-width:0px) and (max-width:425px){
+      flex-direction: row!important;
+  }
+    @media(min-width:426px) and (max-width:769px){
+      margin-top: 40px;
+      width: 55%;
+      margin: 0 auto;
+      margin-top: 50px;
+  }
+  .quantiy{
+   width: 108px;
+    align-items: center;
+    border-right: 1px #6a8afd8c solid;
+    @media(min-width:0px) and (max-width:425px){
+      flex-direction: row;
+  }
+    .minus{
+      cursor: pointer;
+      font-size: 9px;
+      padding-left: 20px;
+    }
+    .orderamount{
+      padding:0px 20px;
+    }
+    .plus{
+      cursor: pointer;
+      font-size: 9px;
+      padding-right: 60px;
+      @media(min-width:769px) and (max-width:1025px){
+        padding-right: 18px;
+    }
+    }
+  
+  }
+  .add{
+    padding: 14px 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    @media(min-width:0px) and (max-width:425px){
+      flex-direction: row;
+      font-size: 15px;
+  }
+    @media(min-width:426px) and (max-width:769px){
+      font-size: 15px;
+      justify-content: flex-end;
+      padding-right: 20px;
+  }
+  @media(min-width:769px) and (max-width:1025px){
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 11px;
+}
+@media(min-width:1026px) and (max-width:1441px){
+  font-size: 13px;
+}
+    .addicon{
+      padding-left: 20px;
+    }
+  }
+}
+
+.mobileproductintrolayout{
+  @media(min-width:0px) and (max-width:769px){
+    display: flex;
+    flex-direction: column-reverse!important;
+}
+
+}
+#mobileproducttitle{
+  font-size: 37px;
+  @media(min-width:769px){
+    display: none;
+  
+}
+ } 
+ .mobile-flex{
+   flex-direction: row!important;
+   align-items: center;
+   
+ }

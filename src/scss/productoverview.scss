@@ -1,0 +1,285 @@
+.productoverview{
+    @media(min-width:426px) and (max-width:769px){
+            
+        flex-direction: column!important;
+    }
+    h2{
+        font-size: 35px;
+        color: #1129a6;
+    
+        @media(min-width:0px) and (max-width:426px){
+            font-size: 25px;
+        }
+    }
+.productinfoholder{
+    color: #1129a6;
+    .productoverviewheading{
+        justify-content: space-between;
+        justify-content: space-between;
+        padding: 0px 45px;
+        padding-bottom: 25px;
+        padding-top: 20px;
+        border-top: 2px #d6d6d6 solid;
+      
+    }
+    .productoverviewdropdown{
+        padding:20px 0px 40px 0px;
+        display: none;
+        
+        p{
+         width: 80%;
+         line-height: 25px;
+         font-family: "klavika-light";
+         padding:0px 46px;
+         color: black;
+      
+        }
+    }
+}
+.reviews{
+    background: #dfe1f1;
+    width: 25%;
+    padding: 45px 0px;
+    padding-left: 35px;
+    font-family: "klavika-light";
+    @media(min-width:0px) and (max-width:769px){
+        width: 100%;
+        padding-left: 0px;
+    }
+    .starrating{
+        @media(min-width:0px) and (max-width:425px){      
+            flex-direction: row!important;
+       
+    }
+    }
+    h2{
+        padding-bottom: 10px;
+        @media(min-width:0px) and (max-width:769px){      
+            padding: 0px 40px;
+       
+    }
+    }
+    form{
+        padding-right: 45px;
+        @media(min-width:0px) and (max-width:769px){
+            padding: 40px;
+        }
+    }
+    .productoverviewholder{
+        @media(min-width:0px) and (max-width:425px){      
+            margin: 20px;
+       
+    }
+    }
+    .review{
+        border-bottom: 2px #d6d6d6 solid;
+        padding: 25px 0px;
+        padding-right: 45px;
+        @media(min-width:0px) and (max-width:425px){      
+            padding: 20px 40px;
+       
+    }
+        @media(min-width:426px) and (max-width:769px){
+           padding: 30px;
+        }
+        .catch{
+            color: #1129a6;
+            font-family: "klavika-medium";
+            padding: 0px 0px 4px 0px;
+        }
+        .title{
+            color: #1129a6;
+            padding: 10px 0px 0px 0px;
+        }
+    }
+}
+}
+.productdetails{
+    width: 80%;
+    padding: 45px 0px;
+    background: #fbfbfb;
+    padding-bottom: 0px;
+    border-bottom: 2px #dfe1f1 solid;
+    @media(min-width:0px) and (max-width:769px){
+        width: 100%;
+    }
+}
+.r-border{
+    border: none!important;
+}
+.star{
+    color: #bfdbf2;
+    font-size: 25px;
+}
+
+.reviewamount{
+    color: #1129a6;
+    margin-top:10px;
+    padding-left: 2px;
+    text-decoration: underline;
+}
+#title{
+    border: none;
+    padding: 15px;
+    font-family: 'klavika-light';
+    margin-top:40px;
+ 
+}
+#message{
+    border: none;
+    padding: 15px;
+    font-family: 'klavika-light';
+    margin-top:10px;
+    min-height: 50px;
+    max-height: 200px;
+
+}
+.submitbutton{
+    padding: 15px 20px;
+    margin-top: 10px;
+    width: 110px;
+    align-self: flex-end;
+    border: none;
+    border-radius: 5px;
+    background: #767ea8;
+    color: white;
+    font-family: "klavika-medium";
+    filter: drop-shadow(1px 5px 0.4rem #666e92);
+}
+.message{
+    margin-top: 10px;
+}
+.userstar{
+    font-size: 22px;
+}
+.relatedproductcardholder{
+    padding-top: 30px;
+    @media(min-width:0px) and (max-width:769px){
+       flex-flow: wrap;
+    }
+    @media(min-width:769px) and (max-width:1025px){
+        justify-content: space-between;
+        flex-flow: wrap;
+       }
+}
+.relatedproductcard{
+    width: calc(100% / 3);
+    padding: 20px;
+    padding-bottom: 50px;
+    @media(min-width:0px) and (max-width:425px){
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+    @media(min-width:426px) and (max-width:661px){
+        width: 100%;
+    }
+    @media(min-width:661px) and (max-width:769px){
+        width: 43%;
+    }
+    @media(min-width:769px) and (max-width:1025px){
+        width: 41%;
+        padding: 20px;
+        padding-bottom: 50px;
+       }
+    &:hover{
+        background: #e9ebf0;
+        border-radius: 2px;
+        filter: drop-shadow(0px 10px 0.5rem #666e92);
+  
+    }
+    .cartandtitleholder{
+        justify-content: space-between;
+        .cartbutton{
+            background: #01b6f4;
+            color: white;
+            border: none;
+            font-size: 18px;
+            padding: 18px;
+            border-radius: 3px;
+            filter: drop-shadow(2px 7px 0.3rem #666e92);
+            @media(min-width:769px) and (max-width:1025px){
+                font-size: 14px;
+                padding: 14px;
+            }
+        }
+            @media(min-width:0px) and (max-width:425px){
+                
+                flex-direction: row;
+                margin: 20px;
+        }
+   
+    }
+   
+    .relatedproducttitle{
+        font-size: 20px;
+        font-weight: bold;
+        @media(min-width:0px) and (max-width:425px){
+            width: 80%;
+    }
+        @media(min-width:769px) and (max-width:1025px){
+            font-size: 15px;
+            width: 60%;
+        }
+    }
+    .priceandratingholder{
+        justify-content: space-between;
+    
+    .relatedproductprice{
+        font-size: 35px;
+        @media(min-width:769px) and (max-width:1025px){
+            font-size: 20px;
+        }
+        @media(min-width:0px) and (max-width:425px){
+            padding: 30px;
+           
+    }
+    }
+    .relatedproductrating{
+        font-size: 25px;
+        @media(min-width:769px) and (max-width:1025px){
+            font-size: 15px;
+        }
+        @media(min-width:0px) and (max-width:425px){
+            padding: 30px;
+           
+    }
+    }
+    @media(min-width:0px) and (max-width:425px){
+        
+        flex-direction: row;
+    }
+    }
+    .relatedproductimg{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 0px;
+        @media(min-width:769px) and (max-width:1025px){
+            width: 80%;
+        }
+    }
+    .relatedproductlist{
+        padding:0px 40px;
+        
+        li{
+            list-style:circle;
+            line-height: 25px;
+            p{
+                @media(min-width:769px) and (max-width:1025px){
+            
+                    font-size: 14px;
+                }
+            }
+            @media(min-width:769px) and (max-width:1025px){
+                line-height: 20px;
+                font-size: 14px;
+            }
+         h1{
+            font-family: 'klavika-light';
+         }
+        }
+    }
+    
+}
+  

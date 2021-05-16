@@ -1,0 +1,45 @@
+.Mobilenavbar{
+    background: #001689;
+    padding: 10px 15px;
+    flex-direction: row!important;
+    align-items: center;
+    justify-content: space-between;
+    
+    @media(min-width:769px) {
+        display: none!important;
+    }
+    .logo{
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+    .search{
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .cart{
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+        i{
+            padding-right: 0px;
+        }
+    }
+    .menucartholder{
+        flex-direction: row!important;
+      .menu{
+        display: flex;
+        transform: rotate(90deg);
+        div{
+            background: white;
+            font-size: 20px;
+            min-height: 25px;
+            width: 3px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+      }
+    }
+}

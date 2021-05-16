@@ -1,0 +1,99 @@
+.navbar{
+  background-color: #001689;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: 'klavika-medium';
+  padding: 0px 40px;
+  filter: drop-shadow(1px 0 .95rem #030e4b);
+  position: sticky!important;
+  top: 0;
+  z-index: 999!important;
+  @media(min-width:0px) and (max-width:769px){
+    display: none!important;
+}
+  li{
+    padding: 25px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    @media(min-width:769px) and (max-width:1025px){
+      font-size: 16px;
+      padding: 25px 10px;
+  }
+    .dropdownicon{
+      font-size: 13px;
+      padding-left: 15px;
+    }
+   
+  }
+  .dropdown-menu{
+    align-items: center;
+  }
+}
+.usericon,.basketicon{
+padding-right: 15px;
+}
+.menu{
+  align-items: center;
+}
+.logo{
+  width: 15%;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.red{
+  background-color: #ff0028;
+  padding: 30px 40px!important;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  @media(min-width:0px) and (max-width:426px){
+    flex-direction: column;
+}
+}
+.productsmenu{
+
+}
+.productdropdown,.goalsdropdown{
+  justify-content: space-evenly;
+  position: absolute;
+  margin-top: 70px;
+  padding-top: 20px;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  background: #001789b0;
+display: none;
+}
+.goalsdropdown{
+ 
+  padding-bottom: 30px;
+}
+.imgholder{
+text-align: center;
+&:hover{
+  
+h1{
+  color: #0098d2;
+}
+}
+
+h1{
+  padding: 15px 0px;
+  cursor: pointer;
+  font-size: 25px;
+}
+img{
+  border-radius: 5px;
+  &:hover{
+    transform: translateY(-10px);
+  }
+}
+}

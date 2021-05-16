@@ -60,7 +60,7 @@ function Navbar(props) {
 /////////////////////////////////////
 
   return (
-   <div>
+   <div className="sticky">
 <Mobilenavbar 
 basket={props.basket} 
 handleDeleteFromBasket={props.handleDeleteFromBasket}/>

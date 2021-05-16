@@ -4,12 +4,17 @@
     flex-direction: row!important;
     align-items: center;
     justify-content: space-between;
-    
+    @media(min-width:426px) and (max-width:769px){
+        padding: 10px 20px;
+    }
     @media(min-width:769px) {
         display: none!important;
     }
     .logo{
         width: 30%;
+        @media(min-width:426px) and (max-width:769px){
+            width: 20%;
+        }
         img{
             width: 100%;
         }
@@ -27,6 +32,7 @@
             padding-right: 0px;
         }
     }
+  
     .menucartholder{
         flex-direction: row!important;
       .menu{
@@ -41,5 +47,25 @@
             font-weight: bold;
         }
       }
+    }
+   
+}
+#basketmobile{
+    position: absolute;
+    right: 9%;
+    width: 240px;
+    background: white;
+    top: 74px;
+    padding: 15px;
+    display: none;
+    @media(min-width:426px) and (max-width:769px){
+        top: 90px;
+        right: 7%;
+    }
+    .basketitem{
+        flex-direction: row;
+        .priceandqty{
+            flex-direction: row;
+        }
     }
 }

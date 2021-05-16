@@ -45,10 +45,10 @@ var [reviews, setreviews] = useState([
 /////////////////////////////////////
 function show(){
   document.getElementById("basket").style.display="flex"
-  console.log("hey")
+  document.getElementById("basketmobile").style.display="flex"
   setTimeout(() => {
     document.getElementById("basket").style.display="none"
-     
+    document.getElementById("basketmobile").style.display="none"
    }, 2000);
 }
 /////////////////////////////////////

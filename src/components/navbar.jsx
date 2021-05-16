@@ -61,7 +61,9 @@ function Navbar(props) {
 
   return (
    <div>
-<Mobilenavbar />
+<Mobilenavbar 
+basket={props.basket} 
+handleDeleteFromBasket={props.handleDeleteFromBasket}/>
 <section className="navbar flex-row">
 
 <div className="menu flex-row">

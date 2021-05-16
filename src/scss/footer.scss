@@ -128,6 +128,11 @@ padding-bottom: 50px;
                 flex-flow: wrap;
                 line-height: 30px;
             }
+            @media(min-width:426px) and (max-width:769px){
+                flex-flow: wrap;
+                line-height: 30px;
+            }
+ 
             @media(min-width:1026px) and (max-width:1441px){
                 justify-content: space-between;
             }

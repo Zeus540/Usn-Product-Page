@@ -197,7 +197,7 @@ const colors = {
            <li><h1>{relatedProducts[index].f1}</h1></li>
            <li><h1>{relatedProducts[index].f2}</h1></li>
            <li><h1>{relatedProducts[index].f3}</h1></li>
-           <li><h1>{relatedProducts[index].f4}</h1></li>
+           <li>{<h1>{relatedProducts[index].f4}</h1>}</li>
          </ul>
        </div>
      )

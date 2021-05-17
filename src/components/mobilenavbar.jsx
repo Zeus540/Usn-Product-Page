@@ -4,13 +4,24 @@ import LeanAndFit from '../assets/images/leanandfit.jpg';
 import Endurance from '../assets/images/endurance.jpg';
 import HardCore from '../assets/images/hardcore.jpg';
 import Weightloss from '../assets/images/weightloss.jpg';
+
 function Mobilenavbar(props) {
+
+/////////////////////////////////////
+/////////////DECLARING STATE////////////////
+/////////////////////////////////////
     var [basketOpen, setbasketOpen] = useState(false)
     var [menuOpen, setmenuOpen] = useState(false)
     var [blogOpen, setblogOpen] = useState(false)
     var [goalsOpen, setgoalsOpen] = useState(false)
     var [shopOpen, setshopOpen] = useState(false)
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
 
+/////////////////////////////////////
+/////////////HANDLE STATE UPDATES////////////////
+/////////////////////////////////////
     const handleShowBaskets = () =>{
        if(basketOpen === false){
         document.getElementById("basketmobile").style.display = "flex"
@@ -19,7 +30,6 @@ function Mobilenavbar(props) {
         document.getElementById("basketmobile").style.display = "none"
         setbasketOpen(false)
        }
-       
      };
 
      const OpenMenu = () =>{
@@ -32,7 +42,6 @@ function Mobilenavbar(props) {
        }
      }
 
-     
      const handleblogOpen = () =>{
       if(blogOpen === false){
         document.getElementById("dropdown-blog").style.display = "block"
@@ -43,7 +52,6 @@ function Mobilenavbar(props) {
        }
      }
 
-     
      const handlegoalsOpen = () =>{
       if(goalsOpen === false){
         document.getElementById("dropdown-goals").style.display = "block"
@@ -54,7 +62,6 @@ function Mobilenavbar(props) {
        }
      }
 
-     
      const handleshopOpen = () =>{
       if(shopOpen === false){
         document.getElementById("dropdown-shop").style.display = "block"
@@ -64,6 +71,9 @@ function Mobilenavbar(props) {
         setshopOpen(false)
        }
      }
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
 
     return (
         <div className="Mobilenavbar flex-row">
@@ -82,19 +92,16 @@ function Mobilenavbar(props) {
             {props.basket.map((_,index) =>{
                 return (
                     <div key={index} className="flex-row basketitem">
-                          <img src={props.basket[index].image} alt={props.basket[index].title} />
+                        <img src={props.basket[index].image} alt={props.basket[index].title} />
                       <div className="desc flex-column">
-                      <p>{props.basket[index].title}</p>
+                        <p>{props.basket[index].title}</p>
                         <div className="priceandqty flex-row">
                         <p className="qty">{props.basket[index].qty}</p>
                         <p className="x">&nbsp;x &nbsp;</p> 
                         <p className="price">{props.basket[index].price}</p>
-                       
                         </div>
                       </div>
-
-                      <i class="far fa-times-circle deleteicon" onClick={() => props.handleDeleteFromBasket(index)}></i>
-                      
+                        <i class="far fa-times-circle deleteicon" onClick={() => props.handleDeleteFromBasket(index)}></i>
                     </div>
                 )
             })}

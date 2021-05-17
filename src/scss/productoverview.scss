@@ -156,6 +156,8 @@
     padding-top: 30px;
     @media(min-width:0px) and (max-width:769px){
        flex-flow: wrap;
+       margin: 0px 20px;
+       justify-content: space-between;
     }
     @media(min-width:769px) and (max-width:1025px){
         justify-content: space-between;
@@ -170,6 +172,7 @@
         width: 100%;
         padding: 0px;
         margin-bottom: 40px;
+        padding-bottom: 20px;
     }
     @media(min-width:426px) and (max-width:661px){
         width: 100%;
@@ -231,7 +234,7 @@
             font-size: 20px;
         }
         @media(min-width:0px) and (max-width:425px){
-            padding: 30px;
+            padding: 0px 30px;
            
     }
     }
@@ -241,7 +244,7 @@
             font-size: 15px;
         }
         @media(min-width:0px) and (max-width:425px){
-            padding: 30px;
+            padding: 0px 30px;
            
     }
     }
@@ -251,7 +254,7 @@
     }
     }
     .relatedproductimg{
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         display: block;
         padding: 20px 0px;

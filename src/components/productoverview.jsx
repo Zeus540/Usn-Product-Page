@@ -232,9 +232,12 @@ const colors = {
  <div className="reviewamount">
  {reviewTotal} Reviews
  </div>
-
-   <input type="text" name="title"  placeholder="Title" id="title"/>
-   <textarea name="Message"  cols="30" rows="10" placeholder="Message" id="message"></textarea>
+ <p id="titleerror">Please Enter a Title Above</p>
+   <input type="text" name="title"  placeholder="Title" id="title" required/>
+   
+   <p id="messageerror">Please Enter FeedBack Below</p>
+   <textarea name="Message"  cols="30" rows="10" placeholder="Message" id="message"  required></textarea>
+   
    <button type="submit" className="submitbutton"  onClick={props.handleFormSubmit}>Submit</button>
  </form>
 

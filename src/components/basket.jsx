@@ -6,6 +6,7 @@ function Basket(props) {
 
     return (
         <div className="basket flex-column" id="basket">
+            <div className="basketlist">
             {props.basket.map((_,index) =>{
                 return (
                     <div key={index} className="flex-row basketitem">
@@ -25,7 +26,7 @@ function Basket(props) {
                     </div>
                 )
             })}
-            <div className="subtotal" id="subtotal">
+            
             </div>
             <button >View basket</button>
             <button >Checkout</button>

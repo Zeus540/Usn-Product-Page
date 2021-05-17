@@ -111,10 +111,18 @@ const handleAddToBasket = (relatedProducts,index) =>{
      }
   
      if(title === "" ){
-      alert("title")
-     }if(message === ""){
-      alert("message")
-     }if(title && message !== ""){
+      document.getElementById('titleerror').style.opacity = "1"
+     }else{
+      document.getElementById('titleerror').style.opacity = "0"
+     }
+     
+     if(message === ""){
+      document.getElementById('messageerror').style.opacity = "1"
+     }else{
+      document.getElementById('messageerror').style.opacity = "0"
+     }
+     
+     if(title && message !== ""){
   
       setreviews(
         [...reviews,review]

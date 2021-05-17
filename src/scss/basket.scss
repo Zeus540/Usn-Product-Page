@@ -5,11 +5,16 @@
     background: white;
     top: 80px;
     padding: 15px;
- 
+    max-height: 50vh;
     img{
         width: 60px;
         height: 60px;
     }
+}
+.basketlist{
+    overflow-y: scroll;
+ margin-bottom: 10px;
+   
 }
 .basketholder{
     position: relative;
@@ -69,3 +74,21 @@ button{
 .subtotal{
     color: #001689;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+ ::-webkit-scrollbar-thumb {
+    background: #001689;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

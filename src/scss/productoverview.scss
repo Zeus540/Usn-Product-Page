@@ -100,6 +100,7 @@
     background: #fbfbfb;
     padding-bottom: 0px;
     border-bottom: 2px #dfe1f1 solid;
+    overflow-x: hidden;
     @media(min-width:0px) and (max-width:769px){
         width: 100%;
     }
@@ -244,7 +245,7 @@
             font-size: 15px;
         }
         @media(min-width:0px) and (max-width:425px){
-            padding: 0px 30px;
+            padding: 0px 13px;
            
     }
     }

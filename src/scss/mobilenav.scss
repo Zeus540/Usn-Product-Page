@@ -83,7 +83,7 @@
     transition: all 0.2s ease-in-out;
     padding: 20px;
     color: white;
-    overflow-y: scroll;
+    overflow-y: auto;
     .menu-list{
         padding :45px 0px;
     }
@@ -102,6 +102,9 @@
     h1{
         padding: 10px 0px;
         font-size: 25px;
+        &:hover{
+            color:#00b6f4;
+        }
     }
     li{
         border: none;

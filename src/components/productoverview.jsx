@@ -112,6 +112,11 @@ const colors = {
   grey: "#c8cde4"
   
 };
+const colors2 = {
+  orange: "#01b6f4",
+  grey: "#bedbf2"
+  
+};
 /////////////////////////////////////
 /////////////////////////////////////
 /////////////////////////////////////
@@ -219,7 +224,7 @@ const colors = {
           <FaStar 
           key={index} 
           className="star"
-          color={(props.hoverValue || props.currentValue) > index ? colors.orange : colors.grey}
+          color={(props.hoverValue || props.currentValue) > index ? colors2.orange : colors2.grey}
           onClick={() => props.handleRating(index + 1)}
           onMouseOver={() => props.handleMouseOver(index + 1)}
           onMouseLeave={() => props.handleMouseLeave(undefined)}
@@ -251,7 +256,7 @@ const colors = {
           <FaStar 
           key={index} 
           className="star"
-          color={(props.reviews[key].rating) > index ? colors.orange : colors.grey}
+          color={(props.reviews[key].rating) > index ? colors2.orange : colors2.grey}
         
           />
           

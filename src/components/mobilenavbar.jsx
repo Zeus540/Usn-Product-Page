@@ -39,7 +39,11 @@ function Mobilenavbar(props) {
        }else{
         document.getElementById("sidemenu").style.right = "-100%"
         setmenuOpen(false)
+        document.getElementById("dropdown-blog").style.display = "none"
+        document.getElementById("dropdown-goals").style.display = "none"
+        document.getElementById("dropdown-shop").style.display = "none"
        }
+       
      }
 
      const handleblogOpen = () =>{
